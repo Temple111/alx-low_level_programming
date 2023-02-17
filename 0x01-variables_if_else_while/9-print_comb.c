@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - this program checks if the last digit of anumber is >, < or zero
  * Return: 0 (sucessful)
  */
+
 int main(void)
 {
 	int a;
@@ -14,7 +14,7 @@ int main(void)
 		if (a < 9)
 			{
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
