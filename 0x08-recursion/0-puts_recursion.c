@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - print a string followed by a new line
  * @s: the string to print
- * Return: nothing 
+ * Return: nothing
  */
 
 void _puts_recursion(char *s)
