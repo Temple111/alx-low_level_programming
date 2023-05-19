@@ -48,7 +48,7 @@ int mul_char(char *usr_n, int l)
 	while (z < l)
 	{
 		a = a + usr_n[z] * usr_n[z];
-		vch += 1;
+		z += 1;
 	}
 
 	return (((unsigned int)a ^ 239) & 63);
