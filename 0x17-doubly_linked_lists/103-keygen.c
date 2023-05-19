@@ -34,7 +34,7 @@ int big_num(char *usr_n, int l)
 /**
  * mul_char - multiplies each char of username
  *
- * @us_rn: username
+ * @usr_n: username
  * @l: length of username
  * Return: multiplied char
  */
