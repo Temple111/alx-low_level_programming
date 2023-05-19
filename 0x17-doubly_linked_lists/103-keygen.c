@@ -114,11 +114,11 @@ int main(int argc, char **argv)
 		z = z + 1;
 	}
 	keygen[2] = ((char *)lett)[(a ^ 85) & 63];
-	/* ----------- f4 ----------- */
+	/* ----------- big_num ----------- */
 	keygen[3] = ((char *)lett)[big_num(argv[1], l)];
-	/* ----------- f5 ----------- */
-	keygen[4] = ((char *)lett)[mul_char(argv[1], )];
-	/* ----------- f6 ----------- */
+	/* ----------- mul_char ----------- */
+	keygen[4] = ((char *)lett)[mul_char(argv[1], l)];
+	/* ----------- r_char ----------- */
 	keygen[5] = ((char *)lett)[r_char(argv[1])];
 	keygen[6] = '\0';
 	for (a = 0; keygen[a]; a++)
