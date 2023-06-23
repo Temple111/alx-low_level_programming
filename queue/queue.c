@@ -1,5 +1,3 @@
-swap.c
-
 #include "monty.h"
 /**
  * f_queue - prints the top
